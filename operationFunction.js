@@ -6,4 +6,8 @@ function trackChange(){
 function multiplication(){}
 function addition(){}
 function subtraction(){}
-function division(){}
+function division(a,b){
+	if(b !=0){
+		return a/b;
+	}
+}
